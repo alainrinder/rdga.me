@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boa.rdga.me</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+    <div id="app">
+      <h1>Boa.rdga.me</h1>
+      <p>
+        <router-link to="/user/me">/user/me (UserForm)</router-link>
+        <router-link to="/user/list">/user/list (UserList)</router-link>
+        <router-link to="/user/1234">/user/:id (UserShow)</router-link>
+
+        <router-link to="/game/list">/game/list (GameList)</router-link>
+        <router-link to="/game/my-game-slug">/game/:slug (GameShow)</router-link>
+
+        <router-link to="/game/my-game-slug/play/new">/game/:slug/play/new (PlayForm)</router-link>
+        <router-link to="/play/list">/play/list (PlayList)</router-link>
+        <router-link to="/play/1234">/play/:id (PlayShow)</router-link>
+      </p>
+      <router-view></router-view>
+    </div>
+
+    <script src="router.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
