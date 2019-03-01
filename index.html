@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Boa.rdga.me</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,25 +19,27 @@
   <body>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-
+    <body>
+        <div id="app"></div>
+      </body>
     <div id="app">
       <h1>Boa.rdga.me</h1>
       <p>
         <router-link to="/user/me">/user/me (UserForm)</router-link>
         <router-link to="/user/list">/user/list (UserList)</router-link>
-        <router-link to="/user/1234">/user/:id (UserShow)</router-link>
+        <router-link to="/user/1234">/user/:userId (UserShow)</router-link>
 
         <router-link to="/game/list">/game/list (GameList)</router-link>
-        <router-link to="/game/my-game-slug">/game/:slug (GameShow)</router-link>
+        <router-link to="/game/my-game-slug">/game/:gameSlug (GameShow)</router-link>
 
-        <router-link to="/game/my-game-slug/play/new">/game/:slug/play/new (PlayForm)</router-link>
+        <router-link to="/game/my-game-slug/play/new">/game/:gameSlug/play/new (PlayForm)</router-link>
         <router-link to="/play/list">/play/list (PlayList)</router-link>
-        <router-link to="/play/1234">/play/:id (PlayShow)</router-link>
+        <router-link to="/play/1234">/play/:playId (PlayShow)</router-link>
       </p>
       <router-view></router-view>
     </div>
 
-    <script src="router.js"></script>
-    <script src="app.js"></script>
+    <script src="dist/main.js" type="text/javascript"></script>
   </body>
 </html>
+-->

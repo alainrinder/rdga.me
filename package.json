@@ -1,0 +1,38 @@
+{
+  "name": "rdga.me",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --config build/webpack.config.dev.js",
+    "build:prod": "webpack --config build/webpack.config.prod.js",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "test": "jest --config test/jest.config.js",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand --config test/jest.config.js"
+  },
+  "keywords": [
+    "Boardgame",
+    "VueJS"
+  ],
+  "author": "Alain Rinder",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.8",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  }
+}
