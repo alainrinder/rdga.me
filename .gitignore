@@ -1,0 +1,9 @@
+.DS_Store
+.htaccess
+
+front/node_modules
+front/deprecated
+front/graphic\ design
+front/notes.md
+front/_*
+front/dist/*
